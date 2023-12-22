@@ -1,4 +1,6 @@
 import React from "react";
+import {Link, Route, Routes} from "react-router-dom";
+import Articale from "./Articale";
 
 
 const Home = () => {
@@ -9,7 +11,7 @@ const Home = () => {
                     <h2 className="text-2xl font-bold mb-4">Post Title 1</h2>
                     <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                         nec odio. Praesent libero...</p>
-                    <a href="#" className="text-blue-500 hover:underline mt-2 inline-block">Read more</a>
+                    <Link to="/home/articale"  className="text-blue-500 hover:underline mt-2 inline-block">Read more</Link>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md">

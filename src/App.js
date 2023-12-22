@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import React from "react";
 import AboutPage from "./pages/AboutPage";
+import Articale from "./pages/Articale";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                         <Route path="/home" element={<Home/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/about" element={<AboutPage/>}/>
+                        <Route path="/home/articale" element={<Articale/>}/>
                     </Routes>
                 </BrowserRouter>
             </nav>
