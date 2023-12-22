@@ -1,10 +1,23 @@
-import Header from './pages/header'
-import {BrowserRouter as Route, Router, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Layout from "./pages/header-router-layout";
+import Home from "./pages/home";
+import Contact from "./pages/contact";
+import React from "react";
 
 function App() {
     return (
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 text-center">
-            <Header></Header>
+        <div>
+            <nav className="bg-blue-500 p-4 text-white">
+                <BrowserRouter>
+                    <Layout></Layout>
+                    <Routes>
+                        <Route path="/" element={<Home/>}></Route>
+                        <Route path="/home" element={<Home/>}></Route>
+                        <Route path="/contact" element={<Contact/>}
+                        ></Route>
+                    </Routes>
+                </BrowserRouter>
+            </nav>
         </div>
     );
 }
