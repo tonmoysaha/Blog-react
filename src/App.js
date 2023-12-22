@@ -4,7 +4,6 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import React from "react";
 import AboutPage from "./pages/AboutPage";
-import Articale from "./pages/Articale";
 
 function App() {
     return (

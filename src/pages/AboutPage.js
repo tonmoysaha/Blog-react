@@ -6,21 +6,21 @@ const AboutPage = () => {
             {/* Header */}
             <header className="bg-blue-700 text-white p-4">
                 <div className="container mx-auto">
-                    <h1 className="text-4xl font-bold">CodeCraft</h1>
-                    <p className="text-lg">Crafting Code, Building Dreams</p>
+                    <h1 className="text-4xl font-bold">Tech Bloggers</h1>
+                    <p className="text-lg">Tech Bloggers, Building Dreams</p>
                 </div>
             </header>
 
             {/* Main Content */}
             <div className="container mx-auto my-8 p-8 bg-white text-black rounded shadow-lg">
-                <h2 className="text-3xl font-bold mb-4">About CodeCraft</h2>
+                <h2 className="text-3xl font-bold mb-4">About Tech Bloggers</h2>
                 <p className="mb-4">
-                    CodeCraft is a software development blog dedicated to empowering developers with knowledge and insights
+                    Tech Bloggers is a software development blog dedicated to empowering developers with knowledge and insights
                     to enhance their coding skills. Whether you're a seasoned developer or just starting your coding journey,
                     we have content tailored to meet your needs.
                 </p>
                 <p className="mb-4">
-                    At CodeCraft, we believe in the art of crafting clean, efficient, and elegant code. Our team of experienced
+                    At Tech Bloggers, we believe in the art of crafting clean, efficient, and elegant code. Our team of experienced
                     developers and tech enthusiasts share their expertise through tutorials, tips, and in-depth articles.
                 </p>
                 <p className="mb-4">
@@ -35,7 +35,7 @@ const AboutPage = () => {
             {/* Footer */}
             <footer className="bg-blue-700 text-white p-4 mt-8">
                 <div className="container mx-auto">
-                    <p>&copy; 2023 CodeCraft. All rights reserved.</p>
+                    <p>&copy; 2023 Tech Bloggers. All rights reserved.</p>
                 </div>
             </footer>
         </div>
