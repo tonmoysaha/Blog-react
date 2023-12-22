@@ -1,4 +1,4 @@
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 import React from "react";
 
 
@@ -19,6 +19,10 @@ const Header = () => {
                         <li>
                             <Link to="/contact"
                                   className="hover:text-gray-300">Contact</Link>
+                        </li>
+                        <li>
+                            <Link to="/about"
+                                  className="hover:text-gray-300">About</Link>
                         </li>
                     </ul>
                 </div>
