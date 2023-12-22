@@ -1,6 +1,6 @@
 import React from "react";
 
-function contact() {
+function Contact() {
     return (
         <section class="bg-gray-200 p-8 mt-8">
             <h2 class="text-3xl font-bold mb-6">Contact Details</h2>
@@ -53,4 +53,4 @@ function contact() {
     )
 }
 
-export default contact
+export default Contact
