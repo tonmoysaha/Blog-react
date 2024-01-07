@@ -4,7 +4,7 @@ import articlesList from "./content";
 
 const Home = () => {
     return (
-        <div className="container mx-auto mt-8">
+        <div className="container flex items-center justify-center mt-8">
             <ArticlesCommon articals={articlesList}></ArticlesCommon>
         </div>
     );
